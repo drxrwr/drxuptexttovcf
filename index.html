@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TXT to VCF</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Upload -->
+  <input type="file" id="fileInput" accept=".txt">
+
+  <!-- Nama Kontak -->
+  <input type="text" id="contactName" placeholder="Nama Kontak">
+
+  <!-- Nama File -->
+  <input type="text" id="fileName" placeholder="Nama File">
+
+  <!-- Info -->
+  <div class="info">
+    <span id="total">Total valid number: 0</span>
+    <span id="duplicateWarning"></span>
+  </div>
+
+  <!-- Textarea -->
+  <textarea id="numberBox" placeholder="Tempel atau upload nomor di sini..."></textarea>
+
+  <!-- Button -->
+  <button id="convertBtn">Convert TXT ke VCF</button>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
